@@ -14,7 +14,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: "Neves DL7 • Red Team | Cybersecurity",
+  title: "André Neves • Portfolio",
   description: "Cybersecurity • Red Team • Threat Intelligence • OSINT • Malware Dev",
   icons: { icon: "/favicon.ico" },
 };
