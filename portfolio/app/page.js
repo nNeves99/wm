@@ -25,7 +25,7 @@ export default function Home() {
             
             <p className="text-3xl text-zinc-400 font-light">
               B.S. CS <br />
-              <span className="text-red-500">Ciência da Computação • Threat Intelligence • Malware Dev</span>
+              <span className="text-red-500">Cryptography • Threat Intelligence • Malware Dev</span>
             </p>
             
             <div className="flex items-center gap-4">
@@ -202,7 +202,7 @@ export default function Home() {
       <MusicPlayer />
 
       <footer className="py-12 border-t border-zinc-900 text-center text-xs text-zinc-600">
-        © 2026 • Built André • For educational purposes and future use
+        Built by André
       </footer>
     </>
   );
