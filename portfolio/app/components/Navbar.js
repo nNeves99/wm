@@ -13,7 +13,6 @@ export default function Navbar() {
               className="w-8 h-8 object-contain"
             />
           </div>
-          <h1 className="logo-font text-3xl font-semibold tracking-tighter">NEVES<span className="text-red-500">DL7</span></h1>
         </div>
 
         <div className="hidden md:flex items-center gap-10 text-sm font-medium">

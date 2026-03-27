@@ -16,7 +16,7 @@ export default function Home() {
           <div className="space-y-8">
             <div className="inline-flex items-center gap-3 bg-zinc-900 border border-red-900 rounded-3xl px-6 py-2 text-sm terminal-glow">
               <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
-              RED TEAM OPERATIVE • ONLINE
+              ROOT
             </div>
             
             <h2 className="text-7xl md:text-8xl font-bold leading-none tracking-tighter logo-font terminal-glow">
@@ -24,8 +24,8 @@ export default function Home() {
             </h2>
             
             <p className="text-3xl text-zinc-400 font-light">
-              Cybersecurity Student<br />
-              <span className="text-red-500">Red Team • Threat Intelligence • OSINT • Malware Dev</span>
+              B.S. CS <br />
+              <span className="text-red-500">Ciência da Computação • Threat Intelligence • Malware Dev</span>
             </p>
             
             <div className="flex items-center gap-4">
@@ -39,15 +39,15 @@ export default function Home() {
 
             <div className="flex gap-8 text-sm pt-8">
               <div>
-                <div className="text-red-500 font-mono text-5xl font-bold">50+</div>
+                <div className="text-red-500 font-mono text-5xl font-bold">Hacking</div>
                 <div className="text-zinc-500">CTFs &amp; Challenges</div>
               </div>
               <div>
-                <div className="text-red-500 font-mono text-5xl font-bold">5</div>
+                <div className="text-red-500 font-mono text-5xl font-bold">OSINT</div>
                 <div className="text-zinc-500">Máquinas Invadidas</div>
               </div>
               <div>
-                <div className="text-red-500 font-mono text-5xl font-bold">∞</div>
+                <div className="text-red-500 font-mono text-5xl font-bold">OPSEC</div>
                 <div className="text-zinc-500">Noites no THM e PortSwigger Academy</div>
               </div>
             </div>
@@ -62,7 +62,7 @@ export default function Home() {
       
                 <Image
                   src="/images/1918527f-0426-4c97-acd9-d6b5f15a83bf.gif"
-                  alt="Neves DL7 - Red Team Operator"
+                  alt="andré - Analista de Threat Intelligence "
                   width={620}
                   height={620}
                   className="w-full h-full object-cover grayscale-[25%] hover:grayscale-0 transition-all duration-700"
@@ -190,11 +190,11 @@ export default function Home() {
           <div className="text-red-500 text-sm tracking-widest mb-4">ÚLTIMO PAYLOAD</div>
           <h2 className="text-6xl font-semibold logo-font">Quer colaborar ou contratar?</h2>
           <p className="mt-6 text-xl text-zinc-400 max-w-md mx-auto">
-            Aberto para CTFs em equipe, pesquisas de Threat Intel ou estágios na área de Red Team.
+            Aberto para pesquisas de Threat Intel, Malware Development ou estágios.
           </p>
           
-          <a href="mailto:nevesdl7@proton.me" className="inline-block mt-12 px-16 py-6 bg-white text-black font-semibold text-xl rounded-3xl hover:scale-105 transition-all">
-            nevesdl7@proton.me
+          <a href="mailto:andrenneves99@gmail.com" className="inline-block mt-12 px-16 py-6 bg-white text-black font-semibold text-xl rounded-3xl hover:scale-105 transition-all">
+            andrenneves99@gmail.com
           </a>
         </div>
       </section>
@@ -202,7 +202,7 @@ export default function Home() {
       <MusicPlayer />
 
       <footer className="py-12 border-t border-zinc-900 text-center text-xs text-zinc-600">
-        © 2026 Neves DL7 • Built with Next.js + Blood • For educational purposes only
+        © 2026 • Built André • For educational purposes and future use
       </footer>
     </>
   );
