@@ -1,5 +1,17 @@
 import "./globals.css";
-import Script from "next/script";
+import { Inter, Space_Grotesk } from "next/font/google";
+
+const inter = Inter({
+  subsets:["latin"], 
+  variable: "--font-inter",
+  weight: ["400", "500", "600", "700"],
+});
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--fontspace-grotesk",
+  weight: ["500", "600"],
+});
 
 export const metadata = {
   title: "Neves DL7 • Red Team | Cybersecurity",
@@ -9,19 +21,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-BR">
-      <head>
-        <link 
-          rel="stylesheet" 
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
-        />
-      </head>
+    <html lang="pt-BR" className={`${inter.variablw} ${spaceGrotesk.variable}`}>
       <body className="bg-zinc-950 text-white antialiased">
         {children}
-        <Script 
-          src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" 
-          strategy="lazyOnload" 
-        />
       </body>
     </html>
   );
