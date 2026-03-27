@@ -40,15 +40,15 @@ export default function Home() {
             <div className="flex gap-8 text-sm pt-8">
               <div>
                 <div className="text-red-500 font-mono text-5xl font-bold">Hacking</div>
-                <div className="text-zinc-500">CTFs &amp; Challenges</div>
+                
               </div>
               <div>
                 <div className="text-red-500 font-mono text-5xl font-bold">OSINT</div>
-                <div className="text-zinc-500">Máquinas Invadidas</div>
+                
               </div>
               <div>
                 <div className="text-red-500 font-mono text-5xl font-bold">OPSEC</div>
-                <div className="text-zinc-500">Noites no THM e PortSwigger Academy</div>
+                
               </div>
             </div>
           </div>
